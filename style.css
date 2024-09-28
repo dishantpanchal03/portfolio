@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nerko+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: #d7f9fd;
+}
+
+/* ______________SIDE BAR___________________ */
+
+.sidebar {
+    position: absolute;
+    background-color: rgba(151, 199, 206, 0.788);
+    font-family: "Merriweather", serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav {
+    padding: 5px;
+    /* color:#B0342F; */
+}
+
+.sidebar nav li {
+    padding: 33px 0px 0px 0px;
+    list-style: none;
+    font-size: 20px;
+    margin: 15px;
+    text-align: center;
+    /* color:#B0342F; */
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.name{
+    color: #170553fd;
+}
+
+.main {
+    padding: 23px;
+    width: 90vw;
+}
+
+/* _______________HOME_____________ */
+
+.container {
+    display: flex;
+}
+
+.infocontainer {
+    margin: 98px 130px;
+    background-color: #36bdb6;
+    color: white;
+    height: 60vh;
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Kanit", sans-serif;
+}
+
+.hello {
+    font-size: 3em;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: bold;
+    font-family: "Merriweather", serif;
+}
+
+.about {
+    font-size: 2.5em;
+}
+
+.moreabout {
+    margin-top: 20px;
+    font-size: 1em;
+    font-family: "Merriweather", serif;
+}
+
+.buttons {
+    margin-top: 35px;
+    font-size: 16px;
+}
+
+.btn {
+    padding: 8px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(0, 114, 108);
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.btn-sm1{
+    font-size: 15px;
+    padding: 5px 19px;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 12px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: rgb(0, 114, 108);
+}
+
+.devPic img {
+    height: 60vh;
+}
+
+/* __________________CONTACT ME____________ */
+
+.contactform {
+    margin: 98px;
+    padding: 40px;
+    /* padding-top: 50px; */
+    font-family: "Merriweather", serif;
+}
+
+.contactform h1 {
+    font-family: "Comfortaa", sans-serif;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 25px;
+    margin: 3px 0;
+}
+
+/* _______________BLOG_________________ */
+
+.blogContainer{
+    margin: 10px 88px;
+}
+
+.blogContainer h1{
+    margin: 0 48px;
+}
+
+.blogItem{
+    margin: 23px 48px;
+    font-family: "Comfortaa", sans-serif;
+}
+h1{
+    font-family: "Comfortaa", sans-serif;
+}
+
+p{
+    font-family: "Merriweather", serif;
+}
+
+/* __________________MY INTRO___________________ */
+
+.intro{
+    margin: 50px 120px;
+}
+
+.intro h2{
+    font-family: "Comfortaa", sans-serif;
+    margin: 12px;
+}
+
+.intro p{
+    margin: 12px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: "Comfortaa", sans-serif;
+    font-weight: 900;
+}
+
+.skill{
+    margin: 5px;
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 265px;
+    background-color: #0af751;
+}
+
+.fifty{
+    width: 125px;
+    background-color: #faea0c;
+}
+
+.seventy{
+    width: 170px;
+    background-color: #a7fa0c;
+}
+
+.t5{
+    width: 75px;
+    background-color: #eb3a3a;
+}
+
+/* __________________________CV__________________________ */
+
+.cv {
+    text-align: center; /* Aligns text to the left */
+    margin-right: 0px; /* Removes any default margins */
+    padding: 0px; /* Removes any default padding */
+    width: 900%; /* Ensures the div takes the full width of its container */
+    font-size: 20px;
+}
+
+.cv hr{
+    margin: 5px 50px 0 0;
+}
+
+.cv h2{
+    margin: 10px 0;
+}
+
+/* ________________________PROJECTS_______________________ */
+
+.projects{
+    margin: 0 150px;
+}
+
+.projects p{
+    margin: 5px 0 25px 0;
+    font-size: 15px;
+}
+
+/* _______________________________________________________ */
+
+@media (max-width: 1000px) {
+    *{
+        background-color: rgb(0, 255, 157);
+    } 
+
+    .buttons{
+        font-size: 10px;
+    }
+
+    .devInfo{
+        font-size: 10px;
+    }
+    
+    .intro, .blogContainer, .infocontainer, .contactform{
+        margin: 15px;
+    }
+}
+
+/* _______________________________________________________ */
+
+.sidebarGo{
+    position: absolute;
+    transform: translate(-443px, 0px);
+}
+
+.hamburger{
+    margin-left: 5px;
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.cross{
+    margin-left: 110px;
+}
